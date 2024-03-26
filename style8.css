@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0px;
+}
+.papa{
+background-color: aqua;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 70px ;
+    padding-left: 30px;
+    height: 30px;
+    align-items: center;
+    font-size: 13px;
+}
+.smlist:hover{
+    font-size: 15px;
+    transition: 1s;
+    color: goldenrod;
+
+}
+.mama{
+    background:  linear-gradient(rgba(255, 0, 0, 0.417),rgba(78, 13, 139, 0.856)),url(DSM.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    padding-top: 180px;
+}
+h1{
+    font-size: 120px;
+    color: whitesmoke;
+}
+h4{
+    padding-top:5px;
+    font-size: 30px;
+    color: whitesmoke;
+    padding-bottom: 30px;
+}
+button{
+    width: 130px;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    position: relative;
+}
+button span{
+    width: 0%;
+    height: 100%;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: 1s;
+}
+button:hover span{
+    width: 100%;
+
+}
+h2{
+    text-align: center;
+    padding: 60px;
+    font-size: 50px;
+    font-family: time new 'Times New Roman';
+}
+.uncle{
+    display: flex;
+    gap: 30px;
+}
+.son1{
+    width: 50%;
+    padding-left: 70px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.son2{
+    width: 50%;
+    margin-left: 100px;
+}
+
+.son2 img{
+    width:400px;
+    height: 550px;
+    border-radius: 20px;
+}
+h3{
+    font-family:'Times New Roman';
+}
+p{
+    font-family:'Times New Roman';
+    padding: 30px;
+}
+.second{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 1700px;
+    width: 100%;
+}
+.aunty{
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 90%;
+    justify-content: center;
+}
+
+.testimonials{
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.sbox{
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.mbox{
+    width: 300px;
+    margin: auto;
+    transition: 1s;
+    box-shadow: 7px 7px 9px rgb(210, 119, 119);
+
+}
+.third{
+    height: 600px;
+}
+img{
+    width: 60px;
+    height: 70px;
+    border-radius: 5px;
+}
+.mbox:hover{
+    transform: translateY(-20px);
+
+}
+.pic-1{
+    background: url(image.anime\ 3.jpeg);
+    width: 450px;
+    height: 700px;
+    border-radius: 10px;
+    
+}
+.pic-1 .semi{
+    background:  linear-gradient(rgba(255, 0, 0, 0.306), rgba(0, 0, 255, 0.659));
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    opacity: -1;
+    color: whitesmoke;
+    transition: 1s;
+}
+.pic-1 .semi:hover{
+    opacity: 1;
+}
+.semi{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid white;
+}
+p{
+    padding-top:  5px; ;
+}
+h6{
+    font-size: 30px;
+
+}
+
+.icon{
+    width: 150px;
+    height: 100px;
+    background: linear-gradient(35deg,rgba(0, 128, 0, 0.742),black);
+    margin: 20px auto;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    transform: rotate(18eg);
+
+}
+footer{
+    background: linear-gradient(rgba(245, 245, 245, 0.429), rgba(255, 255, 255, 0.673)),url(./\ icon\ anime.jpeg);
+    width: 100%;
+    height: 100hv;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:  center;
+
+}
+.fcontain{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.flist2{
+    list-style: none;
+    text-align: justify;
+    padding-left: 80px;
+}
+.flist{
+    list-style: none;
+    text-align: right; 
+    padding-right: 80px;
+}
+.bi-alarm-fill{
+    float: left;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+.tcon{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+}
+.wcon{
+    width: 20px;
+    height: 20px;
+}
+.flist li{
+display: flex;
+align-items: center;
+justify-content: end;
+gap: 10px;
+}
